@@ -1,0 +1,23 @@
+//browser support
+[  
+  {  
+    "key":"browser_title",
+    "val":"Laikas atsinaujinti!",
+  },
+  {  
+    "key":"browser_old",
+    "val":"Jūsų naršyklė pasenusi",
+  },
+  {  
+    "key":"browser_dont_work",
+    "val":", dėl šios priežasties jums ši svetainė neveiks",
+  },
+  {  
+    "key":"browser_please",
+    "val":"Prašome atsinaujinti naršyklę, iš mūsų rekomenduojamų",
+  },
+  {  
+    "key":"browser_download",
+    "val":"Atsisiųsti",
+  }
+]

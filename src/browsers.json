@@ -1,0 +1,27 @@
+[  
+  {  
+    "title":"Google Chrome",
+    "image":"chrome",
+    "download_link":"https://www.google.com/chrome/browser/desktop/"
+  },
+  {  
+    "title":"Mozilla Firefox",
+    "image":"firefox",
+    "download_link":"http://www.mozilla.org/firefox/new/"
+  },
+  {  
+    "title":"Opera",
+    "image":"opera",
+    "download_link":"http://www.opera.com/download"
+  },
+  {  
+    "title":"Apple Safari",
+    "image":"safari",
+    "download_link":"http://support.apple.com/downloads/#safari"
+  },
+  {  
+    "title":"Microsoft Edge",
+    "image":"edge",
+    "download_link":"https://www.microsoft.com/en-us/windows/microsoft-edge"
+  }
+]

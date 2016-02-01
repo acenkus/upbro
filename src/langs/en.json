@@ -1,0 +1,23 @@
+//browser support
+[  
+  {  
+    "key":"browser_title",
+    "val":"Time to update!",
+  },
+  {  
+    "key":"browser_old",
+    "val":"Your browser too old",
+  },
+  {  
+    "key":"browser_dont_work",
+    "val":" thats why this website doesn't work for you",
+  },
+  {  
+    "key":"browser_please",
+    "val":"Please update your browser. We recommend you select one from the list",
+  },
+  {  
+    "key":"browser_download",
+    "val":"Download",
+  }
+]
