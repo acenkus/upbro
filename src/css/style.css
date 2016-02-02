@@ -1,5 +1,4 @@
 .check_feature-container {
-  display: none;
   z-index: 9999;
   position: fixed;
   top: 0;
@@ -94,4 +93,3 @@
 .check_feature-container .description-container .description .browsers-container .browsers-item .browser-bottom .browser-download:hover {
   opacity: 0.6;
 }
-/*# sourceMappingURL=style.css.map */
