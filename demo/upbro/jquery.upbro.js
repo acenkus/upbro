@@ -103,7 +103,7 @@ var upbro = function(options) {
   };
 
   var append_content = function () {
-    var html_template = '<div class="upbro_container">';
+    var html_template = '<div class="upbro_main-container">';
     html_template += '<a href="#" class="upbro_close">';
     html_template += '<img src="' + script_path + 'images/upbro_cross.png" alt="Close">';
     html_template += '</a>';
@@ -124,7 +124,7 @@ var upbro = function(options) {
     html_template += lang('browser_please');
     html_template += '</p>';
     html_template += '</div>';
-    html_template += '<div class="upbro_browsers-container clearfix">';
+    html_template += '<div class="upbro_browsers-container">';
     html_template += '</div>';
     html_template += '</div>';
     html_template += '</div>';
@@ -140,7 +140,7 @@ var upbro = function(options) {
         e.preventDefault();
 
         create_cookie('check_feature', 1, 1);
-        $('.upbro_container').fadeOut();
+        $('.upbro_main-container').fadeOut();
       });
 
     }
@@ -150,8 +150,6 @@ var upbro = function(options) {
     var data_el;
     $.getJSON(script_path + 'browsers.json', function(data) {
       $.each(data, function(i, data) {
-        data_el = '.upbro_container';
-
         data_template = '<div class="upbro_browsers-item">';
         data_template += '<div class="upbro_browser-image">';
         data_template += '<img src="' + script_path + 'images/' + data.image + '.png" alt="' + data.title + '">';
@@ -165,8 +163,8 @@ var upbro = function(options) {
         data_template += '</a>';
         data_template += '</div>';
         data_template += '</div>';
-        if ($('.upbro_container').length) {
-          $(data_template).appendTo(data_el);
+        if ($('.upbro_main-container').length) {
+          $('.upbro_browsers-container').append(data_template);
         }
       });
     });

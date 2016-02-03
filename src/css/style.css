@@ -59,6 +59,14 @@
 .upbro_main-container .upbro_description-container .upbro_description .upbro_description-content p.upbro_please {
   font-size: 16px;
 }
+.upbro_main-container .upbro_description-container .upbro_description .upbro_browsers-container:before,
+.upbro_main-container .upbro_description-container .upbro_description .upbro_browsers-container:after {
+  content: " ";
+  display: table;
+}
+.upbro_main-container .upbro_description-container .upbro_description .upbro_browsers-container:after {
+  clear: both;
+}
 .upbro_main-container .upbro_description-container .upbro_description .upbro_browsers-container .upbro_browsers-item {
   float: left;
   width: 20%;
@@ -97,3 +105,4 @@
 .upbro_main-container .upbro_description-container .upbro_description .upbro_browsers-container .upbro_browsers-item .upbro_browser-bottom .upbro_browser-download:hover {
   opacity: 0.6;
 }
+/*# sourceMappingURL=style.css.map */

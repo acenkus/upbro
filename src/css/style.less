@@ -1,97 +1,104 @@
 //check future
 .upbro_main-container {
-	// display: none;
-	z-index: 9999;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	color: #fff;
-	background: rgba(138, 54, 54, 0.95);
-	@media only screen and (max-width: 900px) {
-		position: absolute;
-		height: auto;
-		min-height: 100%;
-	}
-	.upbro_close {
-		display: block;
-		position: absolute;
-		right: 15px;
-		top: 15px;
-		width: 32px;
-		height: 32px;
-    &:hover {
-      opacity: 0.6;
+    // display: none;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: rgba(138, 54, 54, 0.95);
+    @media only screen and (max-width: 900px) {
+        position: absolute;
+        height: auto;
+        min-height: 100%;
     }
-    img {
-      width: 100%;
-      height: auto;
+    .upbro_close {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: 32px;
+        height: 32px;
+        &:hover {
+            opacity: 0.6;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
-	}
-	.upbro_description-container {
-		display: table;
-		width: 100%;
-		height: 100%;
-		@media only screen and (max-width: 600px) {
-			padding: 80px 0;
-		}
-		.upbro_description {
-			display: table-cell;
-			text-align: center;
-			vertical-align: middle;
-			.upbro_description-title {
-				text-transform: uppercase;
-				font-weight: 700;
-				font-size: 30px;
-			}
-			.upbro_description-content {
-				padding: 15px 0 40px;
-				p {
-					font-size: 20px;
-					&.upbro_please {
-						font-size: 16px;
-					}
-				}
-			}
-			.upbro_browsers-container {
-				.upbro_browsers-item {
-					float: left;
-					width: 20%;
-					@media only screen and (max-width: 900px) {
-						float: none;
-						width: 100%;
-						padding-bottom: 30px;
-					}
-					.upbro_browser-image {
-						text-align: center;
-						img {
-							width: 40%;
-							height: auto;
-							@media only screen and (max-width: 900px) {
-								width: 20%;
-							}
-						}
-					}
-					.upbro_browser-title {
-						padding: 15px 0;
-					}
-					.upbro_browser-bottom {
-						.upbro_browser-download {
-							display: inline-block;
-							padding: 5px 20px;
-							color: #fff;
-							text-decoration: none;
-							text-transform: uppercase;
-							font-weight: 700;
-							border: 2px solid #fff;
-							&:hover {
-								opacity: 0.6;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+    .upbro_description-container {
+        display: table;
+        width: 100%;
+        height: 100%;
+        @media only screen and (max-width: 600px) {
+            padding: 80px 0;
+        }
+        .upbro_description {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            .upbro_description-title {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 30px;
+            }
+            .upbro_description-content {
+                padding: 15px 0 40px;
+                p {
+                    font-size: 20px;
+                    &.upbro_please {
+                        font-size: 16px;
+                    }
+                }
+            }
+            .upbro_browsers-container {
+                &:before, &:after {
+                    content: " ";
+                    display: table;
+                }
+                &:after {
+                    clear: both;
+                }
+                .upbro_browsers-item {
+                    float: left;
+                    width: 20%;
+                    @media only screen and (max-width: 900px) {
+                        float: none;
+                        width: 100%;
+                        padding-bottom: 30px;
+                    }
+                    .upbro_browser-image {
+                        text-align: center;
+                        img {
+                            width: 40%;
+                            height: auto;
+                            @media only screen and (max-width: 900px) {
+                                width: 20%;
+                            }
+                        }
+                    }
+                    .upbro_browser-title {
+                        padding: 15px 0;
+                    }
+                    .upbro_browser-bottom {
+                        .upbro_browser-download {
+                            display: inline-block;
+                            padding: 5px 20px;
+                            color: #fff;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            border: 2px solid #fff;
+                            &:hover {
+                                opacity: 0.6;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
