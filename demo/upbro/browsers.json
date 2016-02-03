@@ -1,27 +1,27 @@
 [  
   {  
     "title":"Google Chrome",
-    "image":"chrome",
+    "image":"upbro_chrome",
     "download_link":"https://www.google.com/chrome/browser/desktop/"
   },
   {  
     "title":"Mozilla Firefox",
-    "image":"firefox",
+    "image":"upbro_firefox",
     "download_link":"http://www.mozilla.org/firefox/new/"
   },
   {  
     "title":"Opera",
-    "image":"opera",
+    "image":"upbro_opera",
     "download_link":"http://www.opera.com/download"
   },
   {  
     "title":"Apple Safari",
-    "image":"safari",
+    "image":"upbro_safari",
     "download_link":"http://support.apple.com/downloads/#safari"
   },
   {  
     "title":"Microsoft Edge",
-    "image":"edge",
+    "image":"upbro_edge",
     "download_link":"https://www.microsoft.com/en-us/windows/microsoft-edge"
   }
 ]
