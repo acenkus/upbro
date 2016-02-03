@@ -1,8 +1,8 @@
 # upbro
 
-Library for browsers compatibility check
+Library for browsers compatibility check.
 
-# Used:
+## Used:
 * Feuturejs : http://featurejs.com/
 * Cookies
 * jQuery
@@ -12,12 +12,12 @@ Library for browsers compatibility check
 
 * Upload "upbro" directory to your server
 
-* Include the plugin script in your <head> tag.
+* Include the plugin script in your head tag.
 
 ```html
   <script type="text/javascript" data-plugin="upbro" src="upbro/jquery.upbro.js"></script>
 ```
-* Add the following code before </body>:
+* Add the following code before body tag ends:
 
 ```html
 <script type="text/javascript">

@@ -148,7 +148,7 @@ var upbro = function(options) {
   var append_browsers = function () {
     var data_template;
     var data_el;
-    $.getJSON('../src/browsers.json', function(data) {
+    $.getJSON(script_path + 'browsers.json', function(data) {
       $.each(data, function(i, data) {
         data_el = '.browsers-container';
 
