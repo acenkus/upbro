@@ -1,9 +1,7 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="../src/css/style.css">
-		<!-- <link rel="stylesheet" href="../src/demo.css"> -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="../src/jquery.lint.js"></script>
+		<script type="text/javascript" data-plugin="upbro" src="upbro/jquery.upbro.js"></script>
   </head>
   <body>
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem animi eius culpa, ad doloribus eaque odio dignissimos id. Suscipit, numquam? Ea assumenda, reiciendis consequatur iste. Non, cum delectus repudiandae facilis.
@@ -13,16 +11,16 @@
       // upbro();
 
     $(document).ready(function(){
-      $('body').css('background','green');
       upbro({
-        feuturejs:   [
-                'historyAPI', 
-                'historyAPI', 
-                'placeholder'
-            ]
+        // feuturejs:  [
+        //   'cssTransform',
+        //   'cssTransition',
+        //   'webGL'
+        // ]
+
+        feuturejs:  'all'
       });
     });
     </script>
-		<script type="text/javascript" src="../src/jquery.upbro.js"></script>
 	</body>
 </html>
